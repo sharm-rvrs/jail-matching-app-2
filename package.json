@@ -1,0 +1,43 @@
+{
+  "name": "jail-matching-app",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "scrape": "tsx scripts/run-scraper.ts"
+  },
+  "dependencies": {
+    "@cedrugs/pdf-parse": "^1.0.0",
+    "@mantine/core": "^8.3.15",
+    "@mantine/dropzone": "^8.3.15",
+    "@mantine/hooks": "^8.3.15",
+    "@mantine/notifications": "^8.3.15",
+    "@tabler/icons-react": "^3.39.0",
+    "dotenv": "^17.3.1",
+    "next": "16.1.6",
+    "nodemailer": "^8.0.1",
+    "openai": "^6.25.0",
+    "pdfjs-dist": "^5.5.207",
+    "playwright": "^1.58.2",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "unpdf": "^1.4.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/nodemailer": "^7.0.11",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.6",
+    "tailwindcss": "^4",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5"
+  }
+}
