@@ -116,7 +116,7 @@ package.json
 
 ```bash
 git clone <repository-url>
-cd jail-matching-app
+cd jail-matching-app-2
 ```
 
 ### 2. Install Dependencies
@@ -163,7 +163,7 @@ NOTIFY_EMAIL=recipient@gmail.com
 Before processing PDFs, run the scraper to collect current jail roster data:
 
 ```bash
-npm run scraper
+npm run scrape
 ```
 
 This generates `/data/roster.json` — a normalized list of inmate records used for name matching.
