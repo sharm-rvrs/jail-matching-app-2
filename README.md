@@ -298,7 +298,3 @@ Given more development time, the following enhancements would be prioritized:
 - **OpenAI API** as a drop-in replacement for Groq if consistency with the spec is required
 
 ---
-
-## License
-
-This project was created as part of a technical evaluation exercise.
